@@ -1,0 +1,10 @@
+[
+    {"name":"Jane", "file":"{{.name | ToUpper }}.html"},
+    {"name":"John", "file":"{{.name}}.html"},
+    {"name":"Peter", "file":"{{.name}}.html"},
+    {"name":"James", "file":"{{.name}}.html"},
+    {"name":"Paul", "file":"{{.name}}.html"},
+    {"name":"Ann", "file":"{{.name}}.html"},
+    {"name":"Irene", "file":"{{.name}}.html"},
+    {"name":"Joseph", "file":"{{.name}}.html"}
+]
