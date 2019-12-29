@@ -9,12 +9,14 @@ import (
 	"os"
 	"strings"
 	"text/template"
+
+	"github.com/iancoleman/strcase"
 )
 
 var funcMap = template.FuncMap{
 	"ToUpper": strings.ToUpper,
 	"ToLower": strings.ToLower,
-	"ToKebab": strcse.ToKebab,
+	"ToKebab": strcase.ToKebab,
 }
 
 func main() {
