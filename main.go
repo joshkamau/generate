@@ -14,6 +14,7 @@ import (
 var funcMap = template.FuncMap{
 	"ToUpper": strings.ToUpper,
 	"ToLower": strings.ToLower,
+	"ToKebab": strcse.ToKebab,
 }
 
 func main() {
